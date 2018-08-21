@@ -9,5 +9,4 @@ def leap_year?(year)
   else
     return false
   end
-
 end
