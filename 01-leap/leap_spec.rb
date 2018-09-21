@@ -1,7 +1,12 @@
 gem 'minitest', '>= 5.0.0'
+###########
+require 'simplecov'
+SimpleCov.start
+###########
 require 'minitest/pride'
 require 'minitest/autorun'
 require_relative 'leap'
+
 
 # This Date class can be safely ignored.
 # It prevents using the Date class' leap? method.
